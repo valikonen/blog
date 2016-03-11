@@ -1,1 +1,5 @@
-./idea/*
+idea/*
+.idea/**/*
+.gitignore
+.sass-cache/
+node_modules/

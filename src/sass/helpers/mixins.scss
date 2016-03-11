@@ -1,0 +1,30 @@
+@mixin customBorderTop ($width: 1px, $color: $colorCustom4, $style: solid){
+  border-top: {
+    width: $width;
+    color: $color;
+    style: $style;
+  }
+}
+@mixin customBorderBottom ($width: 1px, $color: $colorCustom4, $style: solid){
+  border-bottom: {
+    width: $width;
+    color: $color;
+    style: $style;
+  }
+}
+@mixin transition($target: all, $time: 0.3s, $type: ease-in-out){
+  transition: $target $time $type;
+}
+@mixin text($font: 15px $customFont1, $color: $colorCustom5, $lineHeight: 24px, $textAlign: left, $margin: 10px, $padding: 10px){
+  font: $font;
+  color: $color;
+  line-height: $lineHeight;
+  text-align: $textAlign;
+  margin: $margin;
+  padding: $padding;
+}
+@mixin ulReset($margin: 0 0 0 0, $padding: 0 0 0 0, $lst: none){
+  margin: $margin;
+  padding: $padding;
+  list-style-type: $lst;
+}
