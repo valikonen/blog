@@ -1,5 +1,5 @@
 # blog
 
-# To run blog app
-npm install
-gulp
+# To run app
+# npm install
+# gulp
